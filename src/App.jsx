@@ -1,5 +1,8 @@
 import React from 'react'
 import './App.css'
+import Counter from './Counter'
+import Team from './Team'
+
 
 function App() {
   function handleButton1(){
@@ -10,8 +13,11 @@ function App() {
   }
   return (
     <>
-    <button onClick={handleButton1}>Click 1</button>
-    <button onClick={handleButton2}>Click 2</button>
+    <Team></Team>
+    {/* <button onClick={handleButton1}>Click 1</button>
+    <button onClick={handleButton2}>Click 2</button> */}
+    {/* v3 */}
+    <Counter></Counter>
     </>
   )
 }
